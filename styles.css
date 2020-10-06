@@ -1,0 +1,105 @@
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header,
+footer {
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+#redes {
+    margin: auto;
+    text-align: center;
+}
+
+#descripciones {
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+#imagenh {
+    height: 400px;
+    width: 600px;
+}
+
+#imagen {
+    height: 500px;
+    width: 600px;
+}
+
+p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.row {
+    margin: 0;
+}
+
+.nav-btn {
+    margin-right: 25px;
+    color: white;
+}
+
+@media screen and (min-width: 576px) {
+    a .fab {
+        color: white;
+        font-size: 100px;
+        margin: 0 20px 0 20px;
+    }
+    #descripciones {
+        height: 100px;
+    }
+    #imagenp {
+        height: 400px;
+        width: 500px;
+        margin-left: 100px;
+    }
+    .nav-btn {
+        margin-left: 7px;
+        margin-right: 40px;
+        color: white;
+    }
+}
+
+a .fab {
+    color: white;
+    font-size: 50px;
+    margin: 0 20px 20px 20px;
+}
+
+@media screen and (max-width: 576px) {
+    #lucescambio {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/*
+.col-sm-6 {
+    height: 400px;
+    margin-bottom: 0;
+}
